@@ -30,7 +30,12 @@ h5 {
     font-size: 35px;
     color: #676868;
 }
-
+h6 {
+    font-family: "Helvetica Neue";
+    font-weight: bold;
+    font-size: 25px;
+    color: #ffffff;
+}
 body{
     font-family: "Helvetica Neue";
     font-size: 18px;
@@ -59,9 +64,46 @@ tr.spaceUnder> td{
     padding-bottom: 1em;
     vertical-align: top;
 }
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    font-family: "Helvetica Neue";
+    font-weight: bold;
+    font-size: 25px;
+    background-color: #615490;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
 
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 35px;
+    color: #ffffff;
+    float: right;
+    margin-left: 5px;
+}
 
-
+.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+    color: #615490;
+}
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 10px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
 
 
 

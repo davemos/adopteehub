@@ -7,5 +7,52 @@ Adoptee Hub will work through partnership with intensions to make the community 
 community to act as a collective voice, assist with identifying issues and adoptee's hardships in their lifelong journeys.
 <br/><br/>
 A Center for Adoptees is long overdue as it would be a permanent sustainable place for:<br/><br/>
+
+<button class="accordion">Adoptee Hub will offer the following community program services</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+
+<button class="accordion">Birth Search Service</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+
+<button class="accordion">Adoptee Cultural Educartion and Health & Wellness Program</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+<button class="accordion">GATRFF (Global Adoptee Transracial Film & Art Festival)</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+
+<button class="accordion">Conducting Community Dinner & Dialogue series for Adoptees</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+
+<button class="accordion">Adoption Advocacy</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
 {% endblock %}
 
