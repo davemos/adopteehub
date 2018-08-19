@@ -1,1 +1,1 @@
-web: gunicorn adopteehub:app
+web: gunicorn adopteehub.wsgi --log-file -
