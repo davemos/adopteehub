@@ -1,1 +1,1 @@
-web: gunicorn adopteehub.wsgi
+web: gunicorn adopteehub:app
