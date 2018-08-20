@@ -105,6 +105,13 @@ tr.spaceUnder> td{
     transition: max-height 0.2s ease-out;
 }
 
+a.morelink {
+	text-decoration:none;
+	outline: none;
+}
+.morecontent span {
+	display: none;
 
+}
 
 
