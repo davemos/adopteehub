@@ -36,6 +36,28 @@ h6 {
     font-size: 25px;
     color: #ffffff;
 }
+h7 {
+    font-family: "Helvetica Neue";
+    font-weight: medium;
+    font-size: 32px;
+    color: #ffffff;
+}
+h8 {
+    font-family: "Helvetica Neue";
+    font-size: 25px;
+    color: #ffffff;
+}
+h9 {
+    font-family: "Helvetica Neue";
+    font-weight: bold;
+    font-size: 35px;
+    color: #ffffff;
+}
+h10 {
+    font-family: "Helvetica Neue";
+    font-size: 17px;
+    color: #ffffff;
+}
 body{
     font-family: "Helvetica Neue";
     font-size: 18px;
@@ -114,4 +136,10 @@ a.morelink {
 
 }
 
+#box1 {
+    background-color: #676767;
+}
 
+#box2 {
+    background-color: #615490;
+}
