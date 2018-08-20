@@ -129,7 +129,9 @@ tr.spaceUnder> td{
 
 a.morelink {
 	text-decoration:none;
-	outline: none;
+    outline: none;
+    color: #8f0440;
+    font-weight: bold;
 }
 .morecontent span {
 	display: none;
