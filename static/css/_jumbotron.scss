@@ -1,8 +1,8 @@
 .jumbotron {
   padding: $jumbotron-padding ($jumbotron-padding / 2);
   margin-bottom: $jumbotron-padding;
-  background-color: $jumbotron-bg;
-  background-image: url({% static 'img/heroimage.jpg' %});
+  background-color: transparent !important;
+  background-image: url('{{ STATIC_URL }}img/heroimage.jpg');
   @include border-radius($border-radius-lg);
 
   @include media-breakpoint-up(sm) {
