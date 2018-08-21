@@ -72,6 +72,7 @@
     <footer>
         <div class="navbar navbar-static-bottom footer" role="navigation">
             <div class="navbar-text pull-left">
+              <img src="{% static 'img/whiteadopteelogo.png' %}" />
             </div>
             <div class= "navbar-text pull-left">
         <!-- Add in your social media / github links here -->
@@ -80,7 +81,16 @@
             </div>
             <!--Below is the copyright information for the site. You can fill in your own here.-->
             <div class="navbar-text pull-right">
-            &copy; AdopteeHub 2018
+              <table><tr class="social">
+                <td><img class="social" src="{% static 'img/facebook.png' %}"/></td>
+                <td><img class="social" src="{% static 'img/twitter.png' %}"/></td>
+                <td><img class="social" src="{% static 'img/google.png' %}"/></td>
+                <td><img class="social" src="{% static 'img/linkedin.png' %}"/></td>
+              </tr>
+              <tr><td colspan="4" class="copyright" >&copy; AdopteeHub 2018</td></tr>
+            </table>
+
+              
             </div>
         </div>	
     </footer> 
