@@ -146,6 +146,7 @@ a.morelink {
     background-color: #615490;
 }
 
-footer {
+.footer {
     background-color: #8f0440;
-}
+    background-image: url('{{ STATIC_URL }}img/footer.jpg');
+  }
