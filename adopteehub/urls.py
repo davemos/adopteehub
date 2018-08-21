@@ -19,8 +19,7 @@ from .views import home, about, board, services, getinvolved, letter
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', home),
-    path('about/', about),
+    path('', about),
     path('board/', board),
     path('services/', services),
     path('getinvolved/', getinvolved),
