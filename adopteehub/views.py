@@ -14,3 +14,6 @@ def services(request):
     
 def getinvolved(request):
     return render(request,'adopteehub/getinvolved.html')
+
+def letter(request):
+    return render(request, 'adopteehub/letter.html')
