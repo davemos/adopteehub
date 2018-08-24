@@ -72,7 +72,8 @@ body{
 
 .joinButton {
     border-color: #8f0440;
-    color: #615490 
+    color: #615490;
+    background-color: transparent;
 }
 .boardMembers {
     text-align: center; 
